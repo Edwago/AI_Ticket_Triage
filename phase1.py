@@ -79,7 +79,7 @@ def triage_ticket(issue_text):
 
 # ---- Example Test Run ----
 
-example_issue = "Shipment of critical lab instruments denied customs entry due to missing import permits. Customer needs for testing."
+example_issue = "Issue in Detail"
 triage_result = triage_ticket(example_issue)
 
 print("\n=== Triage Result ===")
