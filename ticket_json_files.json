@@ -1,0 +1,318 @@
+
+{
+  "ticketId": "001",
+  "customer": "TechFlow Solutions Ltd",
+  "date": "2025-06-05",
+  "issue": "Shipment AWB-78934 containing 500 units of industrial sensors stuck at Frankfurt customs for 3 days. Client's production line will halt tomorrow if not received.",
+  "priority": 5,
+  "priorityLevel": "Critical",
+  "priorityReasoning": "Production stoppage imminent within 24 hours, high-volume industrial client, significant financial impact from downtime, time-critical delivery window already exceeded.",
+  "nextAction": "Immediately contact customs broker, escalate to management, prepare alternative shipping route if needed.",
+  "actionReasoning": "Immediate intervention required to prevent production halt, management escalation needed for resource allocation, backup plan essential given tight timeline.",
+  "shipmentId": "AWB-78934",
+  "category": "customs_delay",
+  "urgency": "immediate"
+}
+
+{
+  "ticketId": "002",
+  "customer": "MediCore Supplies Inc",
+  "date": "2025-06-06",
+  "issue": "Package MED-4472 with medical equipment delivered to wrong address. Recipient refuses to return package claiming they didn't order it.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "Medical equipment has patient safety implications, wrong delivery creates liability issues, third-party resistance complicates recovery, high-value specialized items.",
+  "nextAction": "Contact delivery service immediately, initiate recovery process, inform customer of delay and provide replacement timeline.",
+  "actionReasoning": "Carrier accountability required for delivery error, legal recovery process needed for disputed delivery, customer communication critical to maintain trust and manage expectations.",
+  "shipmentId": "MED-4472",
+  "category": "wrong_delivery",
+  "urgency": "same_day"
+}
+
+{
+  "ticketId": "003",
+  "customer": "AutoParts Direct",
+  "date": "2025-06-07",
+  "issue": "Customer reports receiving damaged goods in shipment AP-9981. 50 out of 200 brake pads have cracked packaging.",
+  "priority": 3,
+  "priorityLevel": "Medium",
+  "priorityReasoning": "25% damage rate indicates systemic packaging issue, safety-critical automotive parts require quality assurance, but customer can still fulfill orders with remaining 75% inventory.",
+  "nextAction": "Request photo evidence, initiate return process, prepare replacement order, investigate packaging standards.",
+  "actionReasoning": "Visual documentation needed for insurance/carrier claims, return process protects customer relationship, replacement maintains service level, root cause analysis prevents future occurrences.",
+  "shipmentId": "AP-9981",
+  "category": "damaged_goods",
+  "urgency": "within_48_hours"
+}
+
+{
+  "ticketId": "004",
+  "customer": "Green Energy Corp",
+  "date": "2025-06-06",
+  "issue": "Tracking shows package GEC-1156 as \"delivered\" but customer hasn't received solar panel components worth $15,000.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "High monetary value creates significant financial exposure, delivery discrepancy suggests theft or misdelivery, renewable energy project delays have cascading timeline impacts.",
+  "nextAction": "Contact carrier immediately for delivery confirmation details, investigate with local depot, file insurance claim if confirmed lost.",
+  "actionReasoning": "Carrier liability investigation required for proof of delivery dispute, local depot can verify actual delivery location, insurance claim protects against financial loss while investigation proceeds.",
+  "shipmentId": "GEC-1156",
+  "category": "missing_package",
+  "urgency": "same_day",
+  "value": 15000
+}
+
+{
+  "ticketId": "005",
+  "customer": "Office Supplies Plus",
+  "date": "2025-06-07",
+  "issue": "Regular customer requesting tracking update on routine stationery order OSP-3344. Order shipped 2 days ago, within normal delivery window.",
+  "priority": 2,
+  "priorityLevel": "Low",
+  "priorityReasoning": "Routine commodity items with no urgency, shipment within normal transit time, standard customer service inquiry, low business impact if delayed.",
+  "nextAction": "Provide tracking information and estimated delivery date, no immediate escalation needed.",
+  "actionReasoning": "Standard information request requiring only administrative response, no intervention needed as delivery is on schedule, maintains customer service standards without resource escalation.",
+  "shipmentId": "OSP-3344",
+  "category": "tracking_inquiry",
+  "urgency": "standard"
+}
+
+// Ticket #006
+{
+  "ticketId": "006",
+  "customer": "FoodTech Manufacturing",
+  "date": "2025-06-05",
+  "issue": "Urgent shipment FTM-7788 with food processing equipment parts stuck at customs due to missing FDA documentation.",
+  "priority": 5,
+  "priorityLevel": "Critical",
+  "priorityReasoning": "FDA compliance failure halts food processing operations, regulatory violation risks customer's business license, urgent manufacturing deadline cannot be extended, legal compliance mandatory.",
+  "nextAction": "Contact compliance team immediately, expedite FDA documentation, communicate delay to customer, explore emergency alternative.",
+  "actionReasoning": "Regulatory compliance requires specialist intervention, documentation expediting prevents further delays, customer communication manages expectations, alternative solutions protect relationship.",
+  "shipmentId": "FTM-7788",
+  "category": "regulatory_compliance",
+  "urgency": "immediate"
+}
+
+// Ticket #007
+{
+  "ticketId": "007",
+  "customer": "BuildRight Construction",
+  "date": "2025-06-06",
+  "issue": "Customer reports incomplete shipment BR-5566. Received 80 units instead of ordered 100 concrete anchors.",
+  "priority": 3,
+  "priorityLevel": "Medium",
+  "priorityReasoning": "Construction project can continue with 80% of materials temporarily, but completion blocked without full quantity, indicates potential warehouse picking error affecting service quality.",
+  "nextAction": "Verify picking records, check warehouse inventory, arrange shipment of missing 20 units, investigate packing process.",
+  "actionReasoning": "Data verification confirms actual shortage vs customer error, inventory check ensures replacement availability, quick shipment minimizes project delay, process investigation prevents recurrence.",
+  "shipmentId": "BR-5566",
+  "category": "incomplete_shipment",
+  "urgency": "within_48_hours"
+}
+
+// Ticket #008
+{
+  "ticketId": "008",
+  "customer": "ElectroMax Solutions",
+  "date": "2025-06-07",
+  "issue": "Package EM-2233 containing sensitive electronic components exposed to water damage during transit. Insurance claim needed.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "Electronic components completely compromised by water damage, high replacement cost, potential cascading delays for customer's production, carrier liability clear.",
+  "nextAction": "Document damage with photos, contact carrier for incident report, initiate insurance claim, arrange replacement shipment.",
+  "actionReasoning": "Photo documentation essential for insurance claim validity, carrier incident report establishes liability, insurance claim recovers costs, replacement shipment maintains customer operations.",
+  "shipmentId": "EM-2233",
+  "category": "damaged_goods",
+  "urgency": "same_day"
+}
+
+// Ticket #009
+{
+  "ticketId": "009",
+  "customer": "Textile Innovations Ltd",
+  "date": "2025-06-06",
+  "issue": "Customer requesting delivery time change for shipment TI-9900. Original delivery scheduled during their facility maintenance shutdown.",
+  "priority": 2,
+  "priorityLevel": "Low",
+  "priorityReasoning": "Proactive customer request with advance notice, no urgency or operational disruption, routine scheduling accommodation, customer planning demonstrates good relationship.",
+  "nextAction": "Contact carrier to reschedule delivery, confirm new delivery window with customer, update tracking information.",
+  "actionReasoning": "Carrier coordination required for schedule change, customer confirmation ensures convenience, tracking update maintains transparency and prevents confusion.",
+  "shipmentId": "TI-9900",
+  "category": "delivery_reschedule",
+  "urgency": "standard"
+}
+
+// Ticket #010
+{
+  "ticketId": "010",
+  "customer": "ChemLab Supplies",
+  "date": "2025-06-05",
+  "issue": "Hazardous materials shipment CLS-4455 rejected by carrier due to improper labeling. Customer needs materials for time-sensitive testing.",
+  "priority": 5,
+  "priorityLevel": "Critical",
+  "priorityReasoning": "Hazmat compliance violation creates legal liability, time-sensitive testing cannot be delayed, specialized carrier requirements limit alternatives, regulatory penalties possible.",
+  "nextAction": "Immediately contact hazmat compliance team, re-label and re-ship via certified hazmat carrier, expedite processing.",
+  "actionReasoning": "Compliance expertise required for hazmat regulations, proper labeling mandatory for legal shipment, certified carrier ensures regulatory compliance, expedited processing recovers lost time.",
+  "shipmentId": "CLS-4455",
+  "category": "hazmat_compliance",
+  "urgency": "immediate"
+}
+
+// Ticket #011
+{
+  "ticketId": "011",
+  "customer": "RetailMax Chain",
+  "date": "2025-06-07",
+  "issue": "Bulk shipment RM-8877 delivered but customer claims 10% of items are wrong SKUs. Seasonal merchandise needed for weekend promotion.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "Weekend promotional deadline creates time pressure, 10% error rate significantly impacts retail inventory, seasonal merchandise has limited selling window, revenue impact substantial.",
+  "nextAction": "Verify order details against packing list, arrange immediate pickup of incorrect items, expedite correct merchandise shipment.",
+  "actionReasoning": "Data verification determines fault location, immediate pickup prevents customer storage issues, expedited shipment meets promotional deadline, maintains retail partnership.",
+  "shipmentId": "RM-8877",
+  "category": "wrong_items",
+  "urgency": "same_day"
+}
+
+// Ticket #012
+{
+  "ticketId": "012",
+  "customer": "PharmaLogic Corp",
+  "date": "2025-06-06",
+  "issue": "Temperature-controlled shipment PLC-6622 showing temperature breach alert during transport. Contains temperature-sensitive pharmaceutical ingredients.",
+  "priority": 5,
+  "priorityLevel": "Critical",
+  "priorityReasoning": "Pharmaceutical integrity compromised by temperature breach, patient safety risk if used, FDA compliance violation possible, entire batch may require disposal, high liability exposure.",
+  "nextAction": "Immediately quarantine shipment, conduct temperature log analysis, coordinate with quality control, prepare replacement if compromised.",
+  "actionReasoning": "Quarantine prevents potential contaminated product use, temperature analysis determines viability, quality control expertise required for pharmaceutical standards, replacement ensures continuity.",
+  "shipmentId": "PLC-6622",
+  "category": "temperature_breach",
+  "urgency": "immediate"
+}
+
+// Ticket #013
+{
+  "ticketId": "013",
+  "customer": "MachineParts Pro",
+  "date": "2025-06-07",
+  "issue": "Customer reporting delayed delivery of routine maintenance parts order MPP-1199. Not urgent but customer wants status update.",
+  "priority": 1,
+  "priorityLevel": "Very Low",
+  "priorityReasoning": "Routine maintenance parts have flexible timing, customer explicitly states non-urgent status, standard delivery inquiry, no operational impact mentioned.",
+  "nextAction": "Provide tracking update and delivery estimate, no immediate action required unless delivery is significantly delayed.",
+  "actionReasoning": "Information provision satisfies customer inquiry, tracking transparency maintains service standards, no escalation needed given non-urgent nature, resource conservation appropriate.",
+  "shipmentId": "MPP-1199",
+  "category": "delivery_inquiry",
+  "urgency": "low"
+}
+
+// Ticket #014
+{
+  "ticketId": "014",
+  "customer": "SecuritySystems Direct",
+  "date": "2025-06-05",
+  "issue": "High-value shipment SSD-3377 containing security cameras worth $25,000 shows tracking anomaly - stuck at distribution center for 48 hours.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "High monetary value creates theft risk, 48-hour delay exceeds normal distribution timeframes, security equipment delays affect customer installations, tracking anomaly suggests system failure.",
+  "nextAction": "Contact distribution center immediately, investigate delay cause, ensure security of high-value package, provide customer updates every 4 hours.",
+  "actionReasoning": "Direct facility contact required for anomaly resolution, investigation identifies root cause, high-value security protocols needed, frequent updates manage customer anxiety and maintain trust.",
+  "shipmentId": "SSD-3377",
+  "category": "tracking_anomaly",
+  "urgency": "same_day",
+  "value": 25000
+}
+
+// Ticket #015
+{
+  "ticketId": "015",
+  "customer": "AgroTech Farming",
+  "date": "2025-06-06",
+  "issue": "Shipment AT-5588 with agricultural equipment parts cleared customs but delayed due to trucking strike in destination region.",
+  "priority": 3,
+  "priorityLevel": "Medium",
+  "priorityReasoning": "External labor dispute beyond company control, agricultural equipment has seasonal timing considerations, delay affects farming operations but force majeure situation.",
+  "nextAction": "Monitor strike situation, explore alternative transportation routes, keep customer informed of delay and revised timeline.",
+  "actionReasoning": "Strike monitoring provides timeline estimates, alternative routes may bypass affected area, customer communication manages expectations during external disruption.",
+  "shipmentId": "AT-5588",
+  "category": "external_delay",
+  "urgency": "within_48_hours"
+}
+
+// Ticket #016
+{
+  "ticketId": "016",
+  "customer": "DataCenter Solutions",
+  "date": "2025-06-07",
+  "issue": "Express shipment DCS-7799 with critical server components not delivered as promised for weekend maintenance window.",
+  "priority": 5,
+  "priorityLevel": "Critical",
+  "priorityReasoning": "Weekend maintenance window missed means delayed resolution until next scheduled downtime, datacenter operations have minimal tolerance for delays, express service failure requires compensation.",
+  "nextAction": "Escalate to carrier management, arrange emergency alternative delivery, consider courier service, provide compensation for service failure.",
+  "actionReasoning": "Management escalation addresses service failure accountability, emergency delivery options recover some time, courier service bypasses standard shipping delays, compensation maintains customer relationship.",
+  "shipmentId": "DCS-7799",
+  "category": "service_failure",
+  "urgency": "immediate"
+}
+
+// Ticket #017
+{
+  "ticketId": "017",
+  "customer": "HomeGoods Wholesale",
+  "date": "2025-06-06",
+  "issue": "Customer questioning additional customs fees of $500 on shipment HGW-4466 not mentioned in original quote.",
+  "priority": 3,
+  "priorityLevel": "Medium",
+  "priorityReasoning": "Billing dispute requires resolution to maintain trust, $500 represents significant unexpected cost, pricing accuracy affects future business relationship, transparency issue needs addressing.",
+  "nextAction": "Review original shipping agreement, verify customs charges with broker, explain fees to customer, adjust future quotes if needed.",
+  "actionReasoning": "Agreement review determines quote accuracy, broker verification confirms legitimate charges, customer explanation maintains transparency, quote adjustment prevents future disputes.",
+  "shipmentId": "HGW-4466",
+  "category": "billing_dispute",
+  "urgency": "within_48_hours",
+  "disputeAmount": 500
+}
+
+// Ticket #018
+{
+  "ticketId": "018",
+  "customer": "SportGear Distributors",
+  "date": "2025-06-05",
+  "issue": "Seasonal sports equipment shipment SGD-8800 delayed due to port congestion. Customer needs items for summer season launch.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "Seasonal merchandise has fixed selling window, summer launch timing critical for revenue maximization, port congestion affects multiple shipments, delay impacts entire product line launch.",
+  "nextAction": "Investigate alternative ports/routes, provide realistic delivery timeline, consider air freight upgrade for partial shipment.",
+  "actionReasoning": "Alternative routes bypass congested ports, realistic timeline manages customer planning, air freight for critical items salvages partial launch opportunity.",
+  "shipmentId": "SGD-8800",
+  "category": "port_congestion",
+  "urgency": "same_day"
+}
+
+// Ticket #019
+{
+  "ticketId": "019",
+  "customer": "CleanTech Industries",
+  "date": "2025-06-07",
+  "issue": "Regular customer requesting proof of delivery documents for completed shipment CTI-2211 for their internal audit.",
+  "priority": 1,
+  "priorityLevel": "Very Low",
+  "priorityReasoning": "Administrative documentation request with no operational urgency, completed delivery indicates successful service, audit requirement is routine compliance matter.",
+  "nextAction": "Retrieve and send POD documents from carrier, standard administrative request with no urgency.",
+  "actionReasoning": "Document retrieval is routine administrative task, POD provision satisfies audit requirements, no escalation needed for standard compliance request.",
+  "shipmentId": "CTI-2211",
+  "category": "documentation_request",
+  "urgency": "low"
+}
+
+// Ticket #020
+{
+  "ticketId": "020",
+  "customer": "LabEquipment Express",
+  "date": "2025-06-06",
+  "issue": "International shipment LEE-9933 containing laboratory instruments denied entry due to missing import permits. Customer unaware of permit requirements.",
+  "priority": 4,
+  "priorityLevel": "High",
+  "priorityReasoning": "Customs denial blocks delivery completely, laboratory instruments are precision equipment requiring special handling, customer knowledge gap indicates service failure, international compliance complex.",
+  "nextAction": "Contact customs broker immediately, guide customer through permit application process, hold shipment at origin, provide timeline for resolution.",
+  "actionReasoning": "Customs broker expertise required for permit process, customer guidance prevents future compliance issues, origin hold protects equipment condition, timeline helps customer planning.",
+  "shipmentId": "LEE-9933",
+  "category": "import_compliance",
+  "urgency": "same_day"
+}
